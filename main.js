@@ -48,6 +48,21 @@ let options = [
 
 console.log(options[4]);
 console.log(options[3]);
-console.log(opyions[6]);
+console.log(options[6]);
 
+//Task 3 - Looping and Accessing
+//We can use the useful loops we learned to access the items in an array.
+//Declare an index variable and assign it the value of 0.✅
+//In a while loop, console.log the array item at the current index and add 1 to the index variable.
+//Have the while loop run until the index is equal to or greater than the array's length property.
+
+let englishNumbers = ["one", "two", "three", "four", "five"];
+
+console.log(englishNumbers.length); // length is 5
+let index = 0; // declared an an index
+
+while (index < englishNumbers) {
+   console.log(englishNumbers[index]);
+   index++; 
+};
 
