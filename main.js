@@ -72,7 +72,7 @@ while (index < englishNumbers) {
 // Refactor task three to use a for loop instead of a while loop.
 
 for (let i = 0; i <englishNumbers.length; i++) {
-    console.log(englishNumbers[i];
+    console.log(englishNumbers[i]);
 }
 
 //Task 5 - Looping and Reassigning
