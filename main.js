@@ -59,6 +59,8 @@ console.log(options[6]);
 let englishNumbers = ["one", "two", "three", "four", "five"];
 
 console.log(englishNumbers.length); // length is 5
+alert (englishNumbers.length); // also shows you length 
+
 let index = 0; // declared an an index
 
 while (index < englishNumbers) {
@@ -66,3 +68,17 @@ while (index < englishNumbers) {
    index++; 
 };
 
+//Task 4 - Looping and Accessing
+// Refactor task three to use a for loop instead of a while loop.
+
+for (let i = 0; i <englishNumbers.length; i++) {
+    console.log(englishNumbers[i];
+}
+
+//Task 5 - Looping and Reassigning
+//👉 Use a for loop to iterate over the words array 
+//and add the letter t to the end of each word ("ben" becomes "bent", "ha" becomes "hat", etc.).
+
+let words = ["ben", "ha", "spla", "fa", "ca", "dra"];
+
+console.log(words);
